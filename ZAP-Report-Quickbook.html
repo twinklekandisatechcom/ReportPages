@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<!-- saved from url=(0082)file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-02-14-ZAP-Report-Quickbook.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZAP by Checkmarx Scanning Report</title>
+<link href="./ZAP-Report-Quickbook_files/normalize.css" rel="stylesheet">
+<link href="./ZAP-Report-Quickbook_files/main.css" rel="stylesheet">
+<link href="./ZAP-Report-Quickbook_files/colors.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>ZAP by Checkmarx Scanning Report</h1>
+		<p>
+			<span>Generated with</span> <a href="https://zaproxy.org/"><img src="./ZAP-Report-Quickbook_files/zap32x32.png" alt="The ZAP logo" class="zap-logo">ZAP</a>
+			<span>on Fri 6 Dec 2024, at 23:10:24</span>
+		</p>
+		<p>ZAP Version: 2.15.0</p>
+		<p>
+			ZAP by <a href="https://checkmarx.com/">Checkmarx</a>
+		</p>
+	</header>
+
+	<main>
+
+		<section id="contents" class="contents">
+			<h2>Contents</h2>
+			<nav>
+				<ol>
+					<li><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#about-this-report">About this report</a>
+						<ol>
+							
+							<li><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#report-parameters">Report parameters</a></li>
+						</ol></li>
+					<data-th-block>
+					<li><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#summaries">Summaries</a>
+						<ol>
+							<li><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#risk-confidence-counts">Alert counts by risk and confidence</a></li>
+							<li><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#site-risk-counts">Alert counts by site and risk</a></li>
+							<li><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alert-type-counts">Alert counts by alert type</a></li>
+						</ol></li>
+					<li><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alerts">Alerts</a>
+						<ol>
+							
+							
+							
+							
+							
+							
+							
+							<li><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alerts--risk-3-confidence-2"><span>Risk</span>=<span class="risk-level">High</span>, <span>Confidence</span>=<span class="confidence-level">Medium</span> <span>(1)</span></a></li>
+							
+							<li><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alerts--risk-3-confidence-1"><span>Risk</span>=<span class="risk-level">High</span>, <span>Confidence</span>=<span class="confidence-level">Low</span> <span>(1)</span></a></li>
+							  
+							 
+							 
+							
+							
+							
+							
+							<li><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alerts--risk-0-confidence-3"><span>Risk</span>=<span class="risk-level">Informational</span>, <span>Confidence</span>=<span class="confidence-level">High</span> <span>(1)</span></a></li>
+							
+							<li><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alerts--risk-0-confidence-2"><span>Risk</span>=<span class="risk-level">Informational</span>, <span>Confidence</span>=<span class="confidence-level">Medium</span> <span>(1)</span></a></li>
+							
+							<li><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alerts--risk-0-confidence-1"><span>Risk</span>=<span class="risk-level">Informational</span>, <span>Confidence</span>=<span class="confidence-level">Low</span> <span>(1)</span></a></li>
+							  
+						</ol></li>
+					<li><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#appendix">Appendix</a>
+						<ol>
+							<li><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alert-types">Alert types</a></li>
+						</ol></li>
+					</data-th-block>
+				</ol>
+			</nav>
+		</section>
+
+		<section id="about-this-report" class="about-this-report">
+			<h2>About this report</h2>
+
+			
+
+			<section id="report-parameters">
+				<h3>Report parameters</h3>
+				<div class="report-parameters--container">
+					<h4>Contexts</h4>
+					
+					
+					<p>No contexts were selected, so all contexts were included by default.</p>
+					  
+
+					<h4>Sites</h4>
+					
+					<p>The following sites were included:</p>
+					<ul class="sites-list">
+						<li><span class="site">https://sandbox-quickbooks.api.intuit.com</span></li>
+						<li><span class="site">https://oauth.platform.intuit.com</span></li>
+					</ul>
+					
+					<p>(If no sites were selected, all sites were included by default.)</p>
+					<p>An included site must also be within one of the included contexts for its data to be included in the report.</p>
+
+					<h4>Risk levels</h4>
+					<p>
+						<span>Included</span>:
+						 
+						<span class="included-risk-codes"><span class="risk-level">High</span>, <span class="risk-level">Medium</span>, <span class="risk-level">Low</span>, <span class="risk-level">Informational</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						 <span>None</span>
+						
+					</p>
+
+					<h4>Confidence levels</h4>
+					<p>
+						<span>Included</span>:
+						
+						
+						<span class="included-confidence-codes"><span class="confidence-level">User Confirmed</span>, <span class="confidence-level">High</span>, <span class="confidence-level">Medium</span>, <span class="confidence-level">Low</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						
+						
+						<span class="included-confidence-codes"> <span class="confidence-level">User Confirmed</span>, <span class="confidence-level">High</span>, <span class="confidence-level">Medium</span>, <span class="confidence-level">Low</span>, <span class="confidence-level">False Positive</span></span>
+					</p>
+				</div>
+			</section>
+		</section>
+
+		
+		<section>
+			
+		</section>
+		
+		<section id="summaries" class="summaries">
+			<h2>Summaries</h2>
+
+			<section id="risk-confidence-counts">
+				<h3>Alert counts by risk and confidence</h3>
+				<table class="risk-confidence-counts-table">
+					<caption>
+						<p>This table shows the number of alerts for each level of risk and confidence included in the report.</p>
+						<p>(The percentages in brackets represent the count as a percentage of the total number of alerts included in the report, rounded to one decimal place.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col style="width: 14.0%"><col style="width: 14.0%"><col style="width: 14.0%"><col style="width: 14.0%">
+						<col style="width: 14.0%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup" colspan="5">Confidence</th>
+						</tr>
+						<tr>
+							<th scope="col">User Confirmed</th>
+							<th scope="col">High</th>
+							<th scope="col">Medium</th>
+							<th scope="col">Low</th>
+							<th scope="col">Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup" rowspan="5">Risk</th>
+							<th scope="row">High</th>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(20.0%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(20.0%)</span></td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(40.0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Medium</th>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Low</th>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Informational</th>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(20.0%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(20.0%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(20.0%)</span></td>
+							<td><span>3</span><br> <span class="additional-info-percentages">(60.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row">Total</th>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(20.0%)</span></td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(40.0%)</span></td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(40.0%)</span></td>
+							<td><span>5</span><br> <span class="additional-info-percentages">(100%)</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section id="site-risk-counts">
+				<h3>Alert counts by site and risk</h3>
+				<table class="site-risk-counts-table">
+					<caption>
+						<p>This table shows, for each site for which one or more alerts were raised, the number of alerts raised at each risk level.</p>
+						<p>Alerts with a confidence level of "False Positive" have been excluded from these counts.</p>
+						<p>(The numbers in brackets are the number of alerts raised for the site at or above that risk level.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col style="width: 16.25%"><col style="width: 16.25%"><col style="width: 16.25%"><col style="width: 16.25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup" colspan="4">Risk</th>
+						</tr>
+						<tr>
+							<th scope="col">
+								<span>High</span><br>  <span class="additional-info-percentages">(= High)</span>  
+							</th>
+							<th scope="col">
+								<span>Medium</span><br>   <span class="additional-info-percentages">(&gt;= Medium)</span> 
+							</th>
+							<th scope="col">
+								<span>Low</span><br>   <span class="additional-info-percentages">(&gt;= Low)</span> 
+							</th>
+							<th scope="col">
+								<span>Informational</span><br>   <span class="additional-info-percentages">(&gt;= Informational)</span> 
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup" rowspan="1">Site</th>
+							<th scope="row">https://sandbox-quickbooks.api.intuit.com</th>
+							
+							<td><span>2</span><br> <span class="additional-info-percentages">(2)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(2)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(2)</span></td>
+							<td><span>3</span><br> <span class="additional-info-percentages">(5)</span></td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section id="alert-type-counts">
+				<h3>Alert counts by alert type</h3>
+				<table class="alert-type-counts-table">
+					<caption>
+						<p>This table shows the number of alerts of each alert type, together with the alert type's risk level.</p>
+						<p>(The percentages in brackets represent each count as a percentage, rounded to one decimal place, of the total number of alerts included in this report.)</p>
+					</caption>
+					<thead>
+						<tr>
+							<th scope="col">Alert type</th>
+							<th scope="col">Risk</th>
+							<th scope="col">Count</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alert-type-0">Path Traversal</a></th>
+							<td class="risk-level">High</td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(40.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alert-type-1">SQL Injection - SQLite</a></th>
+							<td class="risk-level">High</td>
+							<td><span>3</span><br> <span class="additional-info-percentages">(60.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alert-type-2">Re-examine Cache-control Directives</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>15</span><br> <span class="additional-info-percentages">(300.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alert-type-3">Session Management Response Identified</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>5</span><br> <span class="additional-info-percentages">(100.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alert-type-4">User Agent Fuzzer</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>240</span><br> <span class="additional-info-percentages">(4,800.0%)</span></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th scope="row">Total</th>
+							<td></td>
+							<td>5</td>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+		</section>
+
+		<section id="alerts" class="alerts">
+			<h2>Alerts</h2>
+			<ol>
+				
+				 
+				
+				
+				
+				
+				<li id="alerts--risk-3-confidence-2">
+					<h3>
+						<span>Risk</span>=<span class="risk-level">High</span>, <span>Confidence</span>=<span class="confidence-level">Medium</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://sandbox-quickbooks.api.intuit.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alert-type-1">SQL Injection - SQLite</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://sandbox-quickbooks.api.intuit.com/v3/company/4620816365289262850/payment/1367?minorversion=40</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tbody><tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A1_2017-Injection.html">OWASP_2017_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A03_2021-Injection/">OWASP_2021_A03</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/89.html">CWE-89</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection">WSTG-v42-INPV-05</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>SQL injection may be possible.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>The query time is controllable using parameter value [case randomblob(10000000) when not null then 1 else 1 end ], which caused the request to take [314] milliseconds, parameter value [case randomblob(100000000) when not null then 1 else 1 end ], which caused the request to take [1,172] milliseconds, when the original unmodified query with value [40] took [921] milliseconds.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (1327 bytes)</summary>
+				
+				<pre><code>GET https://sandbox-quickbooks.api.intuit.com/v3/company/4620816365289262850/payment/1367?minorversion=case+randomblob%2810000000%29+when+not+null+then+1+else+1+end+ HTTP/1.1
+User-Agent: Intuit-qbov3-postman-collection1
+Accept: application/json
+Authorization: Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..RXfPwkGz_mHWfXa1bipjZA.xuRG-StEI_QE26yoCm-aTFQi4kjceFrpeuIGtV-oWQyYnHhOV0lKMFe22ZKvkc2jbH_0GI4A8Q7VejGkUorGy5URgEumIkZnyjJHNngKtvSdkGZGWRPW3Iwu4Bk8IwMhmJ-bIJ9JN1GTZxKUHspz8McQjXsKVccxwV653EfqO5r0vnUfUxEjIquRdV5otFeXybWxtadT2uSFr_h-FnkgAEKX_ItaJPBjdL_j3u8rb7OqPyipL0WLurKmWO5EsXKDWRaHiy4ex0srJUZw6KlKELaaEcq70yy_6bpmuVy95LJtjECXMuBrti92wsFryuo-NzHbS-R2ANxCPnNvBZU_UYIcqVQAP-sOjBbZgq3Yud88iMO-TsZdTjDoWY2PlonLYHvgHkw2tZwN3ye2w1XtDQpl4Ebgff4XRneE-IBIElKwGVFi6Yy31XPxkbU4MVZRBLpLmWDgwxXROoIrcdypuS4THH5RjxJHD0WYdO-Wt_bFhuNXsUpr7aHo5a1z0_laldcHQByWz-HPdA7SOU5ghEMZnJqtC0k9kRMcVgVLLHM4T0tLwJQGuWymqybCZ7tSJpUDvU2FrflrtzLHdF_2xbfqNf6wBFM1Vk27SVecKhMKr6wAiwg9dE-pK__rrQLTCby1F3dGcKnE5X2PubGL51ZJ9NEIP0NOXJzIG-j7rH2ZfeRy63siAFd9FcFrwJj3h7qtHuVyLR36a9Ugr-pHPdTX8Ukv2L5HNUjseU3K2OXK9AkLkyN5ynILVenHvgmy.hyzBa90FfXMbBKLVWHXnbA
+Content-Type: text/plain
+Cache-Control: no-cache
+Postman-Token: d61cc9e6-1139-425d-99af-f7b19186fe27
+host: sandbox-quickbooks.api.intuit.com
+Connection: keep-alive
+Content-Length: 266
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (266 bytes)</summary>
+				
+				<pre><code>{
+    "CustomerRef":
+    {
+        "value": "58",
+        "name": "TEST123"
+    },
+    "TotalAmt": 100.00,
+    "Line": [
+    {
+        "Amount": 100.00,
+        "LinkedTxn": [
+        {
+            "TxnId": "173",
+            "TxnType": "Invoice"
+        }]
+    }]
+}</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (403 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 401 Unauthorized
+Date: Fri, 06 Dec 2024 14:12:58 GMT
+Content-Type: application/json
+Content-Length: 440
+Connection: close
+WWW-Authenticate: Bearer realm="Intuit", error="invalid_token"
+x-envoy-upstream-service-time: 11
+strict-transport-security: max-age=31536000
+intuit_tid: 1-6753066a-500e5a6d15ddf6ce510498be
+x-request-id: 1-6753066a-500e5a6d15ddf6ce510498be
+server: istio-envoy
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (440 bytes)</summary>
+				
+				<pre><code>{"warnings":null,"intuitObject":null,"fault":{"error":[{"message":"message=AuthenticationFailed; errorCode=003200; statusCode=401","detail":"Token expired: AB01733491458nMkm5DEfToJa9tAXbtT2qAmlxvUN73u6Bl6g3","code":"3200","element":null}],"type":"AUTHENTICATION"},"report":null,"queryResponse":null,"batchItemResponse":[],"attachableResponse":[],"syncErrorResponse":null,"requestId":null,"time":1733494378238,"status":null,"cdcresponse":[]}</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>minorversion</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Attack</th>
+		<td><pre><code>case randomblob(10000000) when not null then 1 else 1 end </code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>The query time is controllable using parameter value [case randomblob(10000000) when not null then 1 else 1 end ], which caused the request to take [314] milliseconds, parameter value [case randomblob(100000000) when not null then 1 else 1 end ], which caused the request to take [1,172] milliseconds, when the original unmodified query with value [40] took [921] milliseconds.</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Do not trust client side input, even if there is client side validation in place.</p>
+
+<p>In general, type check all data on the server side.</p>
+
+<p>If the application uses JDBC, use PreparedStatement or CallableStatement, with parameters passed by '?'</p>
+
+<p>If the application uses ASP, use ADO Command Objects with strong type checking and parameterized queries.</p>
+
+<p>If database Stored Procedures can be used, use them.</p>
+
+<p>Do *not* concatenate strings into queries in the stored procedure, or use 'exec', 'exec immediate', or equivalent functionality!</p>
+
+<p>Do not create dynamic SQL queries using simple string concatenation.</p>
+
+<p>Escape all data received from the client.</p>
+
+<p>Apply an 'allow list' of allowed characters, or a 'deny list' of disallowed characters in user input.</p>
+
+<p>Apply the principle of least privilege by using the least privileged database user possible.</p>
+
+<p>In particular, avoid using the 'sa' or 'db-owner' database users. This does not eliminate SQL injection, but minimizes its impact.</p>
+
+<p>Grant the minimum database access that is necessary for the application.</p>
+ </td>
+	</tr>
+</tbody></table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-3-confidence-1">
+					<h3>
+						<span>Risk</span>=<span class="risk-level">High</span>, <span>Confidence</span>=<span class="confidence-level">Low</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://sandbox-quickbooks.api.intuit.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alert-type-0">Path Traversal</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">POST https://sandbox-quickbooks.api.intuit.com/v3/company/4620816365289262850/item?minorversion=40</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tbody><tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/22.html">CWE-22</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/05-Authorization_Testing/01-Testing_Directory_Traversal_File_Include">WSTG-v42-ATHZ-01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A5_2017-Broken_Access_Control.html">OWASP_2017_A05</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The Path Traversal attack technique allows an attacker access to files, directories, and commands that potentially reside outside the web document root directory. An attacker may manipulate a URL in such a way that the web site will execute or reveal the contents of arbitrary files anywhere on the web server. Any device that exposes an HTTP-based interface is potentially vulnerable to Path Traversal.</p>
+
+<p>Most web sites restrict user access to a specific portion of the file-system, typically called the "web document root" or "CGI root" directory. These directories contain the files intended for user access and the executable necessary to drive web application functionality. To access files or execute commands anywhere on the file-system, Path Traversal attacks will utilize the ability of special-characters sequences.</p>
+
+<p>The most basic Path Traversal attack uses the "../" special-character sequence to alter the resource location requested in the URL. Although most popular web servers will prevent this technique from escaping the web document root, alternate encodings of the "../" sequence may help bypass the security filters. These method variations include valid and invalid Unicode-encoding ("..%u2216" or "..%c0%af") of the forward slash character, backslash characters ("..\") on Windows-based servers, URL encoded characters "%2e%2e%2f"), and double URL encoding ("..%255c") of the backslash character.</p>
+
+<p>Even if the web server properly restricts Path Traversal attempts in the URL path, a web application itself may still be vulnerable due to improper handling of user-supplied input. This is a common problem of web applications that use template mechanisms or load static text from files. In variations of the attack, the original URL parameter value is substituted with the file name of one of the web application's dynamic scripts. Consequently, the results can reveal source code because the file is interpreted as text instead of an executable script. These techniques often employ additional special characters such as the dot (".") to reveal the listing of the current working directory, or "%00" NULL characters in order to bypass rudimentary file extension checks.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (1266 bytes)</summary>
+				
+				<pre><code>POST https://sandbox-quickbooks.api.intuit.com/v3/company/4620816365289262850/item?minorversion=40 HTTP/1.1
+User-Agent: Intuit-qbov3-postman-collection1
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..nMp9PdSJZSufljxxCEwoDQ.9uGoMYJkGAiEtydwdWto908YcE44QSaBnXPonS-O1G2OlJ63Yb97gjw2GYEIq7yZ_ryLNRiy6end51wV-Zb-wSklQFNDQpdjJrkQ3zmJv8hlCRqA_2KWizPJbLzA1hwXzdChXjbSCD-ZfUONtDr6peW79CysARDXftsZsS7vdQFic4q7XOITwqQsoOPbEpEpWCcnr2co832G8np3r_MKdooTUjo72Hul09o55YxxPnPo5haWMJMByEQXVpPt1I_WmcMJD3P9pD4RyXi8Ki8lMgJS2KEK1Wxnm7lo_v5GD15LChs_NFuBVu-LO2CmP4yXpU4UQCwDswlW3YbOMgTsO2ss8Ys_51dyN1HZKpy92lak9d7t8Tr6c_RvFAr81rai2hz3mmeJcPVFrOGUWk0sARAVRmuXF_A0h2EYjHdPrz5aKdFkc0jgn1h7E_AuKEHhPZ94IW0VvERK_HC4Y0VY18RIw_0nAz4lt0HQAwQ4B6K3-VZtSZAgTn6aWqmDuqWA69j_L9pwEmAMLG-T_4Vr7uOXqrFwWszhTNx2COpuV7WsRixr6qqb2JHKz1vL2bqpYY1rWtaqCZwz_sDmYoe_2AYnem65ovgTAhK-Jj0-LZpif6bcWgJkrB-pJe096tReMAQMNAySMIh9o69-PFlPUccNNwWIrPRHXHQCbUbsjuPZ1bkmVbpfq2J6NErfMMc1iK_-tutFHnlTXpKHKEVcIi0E6Pbd03MqiI7y4AI8htpNjpUbvtjXL2ZtfbTwbbQd.JVGr4ClzMKDmF-nDkwGumw
+Cache-Control: no-cache
+Postman-Token: edf3de2f-4b23-4584-b401-a012aeeb11c9
+host: sandbox-quickbooks.api.intuit.com
+Connection: keep-alive
+content-length: 365
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (365 bytes)</summary>
+				
+				<pre><code>{
+  "Name": "item",
+  "IncomeAccountRef": {
+    "value": "79",
+    "name": "Sales of Product Income"
+  },
+  "ExpenseAccountRef": {
+    "value": "80",
+    "name": "Cost of Goods Sold"
+  },
+  "AssetAccountRef": {
+    "value": "81",
+    "name": "Inventory Asset"
+  },
+  "Type": "Inventory",
+  "TrackQtyOnHand": true,
+  "QtyOnHand": 10,
+  "InvStartDate": "2015-01-01"
+}</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (616 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Fri, 06 Dec 2024 12:33:42 GMT
+Content-Type: application/json;charset=utf-8
+Connection: keep-alive
+x-spanid: f205231e-164a-133e-b9d8-90bcf4897284
+x-amzn-trace-id: Root=1-6752ef26-3862946227d161075dc95778
+X-Content-Type-Options: nosniff
+x-envoy-upstream-service-time: 327
+Server: istio-envoy
+x-envoy-decorator-operation: v3-facade-service-desired-service.dev-devx-v3facadeservice-usw2-prd-ids.svc.cluster.local:8090/*
+Strict-Transport-Security: max-age=31536000
+intuit_tid: 1-6752ef26-3862946227d161075dc95778
+x-request-id: 1-6752ef26-3862946227d161075dc95778
+content-length: 581
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (581 bytes)</summary>
+				
+				<pre><code>{"Item":{"Name":"item","Active":true,"FullyQualifiedName":"item","Taxable":false,"UnitPrice":0,"Type":"Inventory","IncomeAccountRef":{"value":"79","name":"Sales of Product Income"},"PurchaseCost":0,"ExpenseAccountRef":{"value":"80","name":"Cost of Goods Sold"},"AssetAccountRef":{"value":"81","name":"Inventory Asset"},"TrackQtyOnHand":true,"QtyOnHand":10,"InvStartDate":"2015-01-01","domain":"QBO","sparse":false,"Id":"197","SyncToken":"0","MetaData":{"CreateTime":"2024-12-06T04:33:43-08:00","LastUpdatedTime":"2024-12-06T04:33:43-08:00"}},"time":"2024-12-06T04:33:42.638-08:00"}</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>Name</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Attack</th>
+		<td><pre><code>item</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Assume all input is malicious. Use an "accept known good" input validation strategy, i.e., use an allow list of acceptable inputs that strictly conform to specifications. Reject any input that does not strictly conform to specifications, or transform it into something that does. Do not rely exclusively on looking for malicious or malformed inputs (i.e., do not rely on a deny list). However, deny lists can be useful for detecting potential attacks or determining which inputs are so malformed that they should be rejected outright.</p>
+
+<p>When performing input validation, consider all potentially relevant properties, including length, type of input, the full range of acceptable values, missing or extra inputs, syntax, consistency across related fields, and conformance to business rules. As an example of business rule logic, "boat" may be syntactically valid because it only contains alphanumeric characters, but it is not valid if you are expecting colors such as "red" or "blue."</p>
+
+<p>For filenames, use stringent allow lists that limit the character set to be used. If feasible, only allow a single "." character in the filename to avoid weaknesses, and exclude directory separators such as "/". Use an allow list of allowable file extensions.</p>
+
+<p>Warning: if you attempt to cleanse your data, then do so that the end result is not in the form that can be dangerous. A sanitizing mechanism can remove characters such as '.' and ';' which may be required for some exploits. An attacker can try to fool the sanitizing mechanism into "cleaning" data into a dangerous form. Suppose the attacker injects a '.' inside a filename (e.g. "sensi.tiveFile") and the sanitizing mechanism removes the character resulting in the valid filename, "sensitiveFile". If the input data are now assumed to be safe, then the file may be compromised. </p>
+
+<p>Inputs should be decoded and canonicalized to the application's current internal representation before being validated. Make sure that your application does not decode the same input twice. Such errors could be used to bypass allow list schemes by introducing dangerous inputs after they have been checked.</p>
+
+<p>Use a built-in path canonicalization function (such as realpath() in C) that produces the canonical version of the pathname, which effectively removes ".." sequences and symbolic links.</p>
+
+<p>Run your code using the lowest privileges that are required to accomplish the necessary tasks. If possible, create isolated accounts with limited privileges that are only used for a single task. That way, a successful attack will not immediately give the attacker access to the rest of the software or its environment. For example, database applications rarely need to run as the database administrator, especially in day-to-day operations.</p>
+
+<p>When the set of acceptable objects, such as filenames or URLs, is limited or known, create a mapping from a set of fixed input values (such as numeric IDs) to the actual filenames or URLs, and reject all other inputs.</p>
+
+<p>Run your code in a "jail" or similar sandbox environment that enforces strict boundaries between the process and the operating system. This may effectively restrict which files can be accessed in a particular directory or which commands can be executed by your software.</p>
+
+<p>OS-level examples include the Unix chroot jail, AppArmor, and SELinux. In general, managed code may provide some protection. For example, java.io.FilePermission in the Java SecurityManager allows you to specify restrictions on file operations.</p>
+
+<p>This may not be a feasible solution, and it only limits the impact to the operating system; the rest of your application may still be subject to compromise.</p>
+ </td>
+	</tr>
+</tbody></table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				  
+				 
+				 
+				 
+				
+				
+				<li id="alerts--risk-0-confidence-3">
+					<h3>
+						<span>Risk</span>=<span class="risk-level">Informational</span>, <span>Confidence</span>=<span class="confidence-level">High</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://sandbox-quickbooks.api.intuit.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alert-type-3">Session Management Response Identified</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">POST https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tbody><tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to "Auto-Detect" then this rule will change the session management to use the tokens identified.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>json:access_token</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (1269 bytes)</summary>
+				
+				<pre><code>POST https://sandbox-quickbooks.api.intuit.com/v3/company/4620816365289262850/invoice?minorversion=40 HTTP/1.1
+User-Agent: Intuit-qbov3-postman-collection1
+Accept: application/json
+Content-Type: application/json
+Authorization: Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..RXfPwkGz_mHWfXa1bipjZA.xuRG-StEI_QE26yoCm-aTFQi4kjceFrpeuIGtV-oWQyYnHhOV0lKMFe22ZKvkc2jbH_0GI4A8Q7VejGkUorGy5URgEumIkZnyjJHNngKtvSdkGZGWRPW3Iwu4Bk8IwMhmJ-bIJ9JN1GTZxKUHspz8McQjXsKVccxwV653EfqO5r0vnUfUxEjIquRdV5otFeXybWxtadT2uSFr_h-FnkgAEKX_ItaJPBjdL_j3u8rb7OqPyipL0WLurKmWO5EsXKDWRaHiy4ex0srJUZw6KlKELaaEcq70yy_6bpmuVy95LJtjECXMuBrti92wsFryuo-NzHbS-R2ANxCPnNvBZU_UYIcqVQAP-sOjBbZgq3Yud88iMO-TsZdTjDoWY2PlonLYHvgHkw2tZwN3ye2w1XtDQpl4Ebgff4XRneE-IBIElKwGVFi6Yy31XPxkbU4MVZRBLpLmWDgwxXROoIrcdypuS4THH5RjxJHD0WYdO-Wt_bFhuNXsUpr7aHo5a1z0_laldcHQByWz-HPdA7SOU5ghEMZnJqtC0k9kRMcVgVLLHM4T0tLwJQGuWymqybCZ7tSJpUDvU2FrflrtzLHdF_2xbfqNf6wBFM1Vk27SVecKhMKr6wAiwg9dE-pK__rrQLTCby1F3dGcKnE5X2PubGL51ZJ9NEIP0NOXJzIG-j7rH2ZfeRy63siAFd9FcFrwJj3h7qtHuVyLR36a9Ugr-pHPdTX8Ukv2L5HNUjseU3K2OXK9AkLkyN5ynILVenHvgmy.hyzBa90FfXMbBKLVWHXnbA
+Cache-Control: no-cache
+Postman-Token: d42247a1-c485-48e6-af71-76188fae8ef5
+host: sandbox-quickbooks.api.intuit.com
+Connection: keep-alive
+Content-Length: 262
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (262 bytes)</summary>
+				
+				<pre><code>{
+  "Line": [
+    {
+      "Amount": 100.00,
+      "DetailType": "SalesItemLineDetail",
+      "SalesItemLineDetail": {
+        "ItemRef": {
+          "value": "1",
+          "name": "Services"
+        }
+      }
+    }
+  ],
+  "CustomerRef": {
+    "value": "1"
+  }
+}</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (618 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Fri, 06 Dec 2024 12:24:51 GMT
+Content-Type: application/json;charset=utf-8
+Connection: keep-alive
+x-spanid: 49d60a61-fab0-f8e5-9989-373b4eef5aef
+x-amzn-trace-id: Root=1-6752ed12-4ad989b8406a01672f805b67
+X-Content-Type-Options: nosniff
+x-envoy-upstream-service-time: 1212
+Server: istio-envoy
+x-envoy-decorator-operation: v3-facade-service-desired-service.dev-devx-v3facadeservice-usw2-prd-ids.svc.cluster.local:8090/*
+Strict-Transport-Security: max-age=31536000
+intuit_tid: 1-6752ed12-4ad989b8406a01672f805b67
+x-request-id: 1-6752ed12-4ad989b8406a01672f805b67
+content-length: 1479
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1479 bytes)</summary>
+				
+				<pre><code>{"Invoice":{"AllowIPNPayment":false,"AllowOnlinePayment":false,"AllowOnlineCreditCardPayment":false,"AllowOnlineACHPayment":false,"domain":"QBO","sparse":false,"Id":"1712","SyncToken":"0","MetaData":{"CreateTime":"2024-12-06T04:24:51-08:00","LastUpdatedTime":"2024-12-06T04:24:51-08:00"},"CustomField":[{"DefinitionId":"1","Name":"Test Field","Type":"StringType"}],"DocNumber":"2216","TxnDate":"2024-12-06","CurrencyRef":{"value":"USD","name":"United States Dollar"},"ExchangeRate":1,"LinkedTxn":[],"Line":[{"Id":"1","LineNum":1,"Amount":100.00,"DetailType":"SalesItemLineDetail","SalesItemLineDetail":{"ItemRef":{"value":"1","name":"Services"},"ItemAccountRef":{"value":"1","name":"Services"},"TaxCodeRef":{"value":"NON"}}},{"Amount":100.00,"DetailType":"SubTotalLineDetail","SubTotalLineDetail":{}}],"TxnTaxDetail":{"TotalTax":0},"CustomerRef":{"value":"1","name":"Amy's Bird Sanctuary"},"BillAddr":{"Id":"1453","Line1":"4581 Finch St.","City":"Bayshore","CountrySubDivisionCode":"CA","PostalCode":"94326"},"ShipAddr":{"Id":"395","Line1":"4581 Finch St.egeg","City":"Bayshore","Country":"test","CountrySubDivisionCode":"CA","PostalCode":"94326"},"FreeFormAddress":false,"ShipFromAddr":{"Id":"3676","Line1":"123 Sierra Way","Line2":"San Pablo, CA  87999"},"DueDate":"2025-01-05","TotalAmt":100.00,"HomeTotalAmt":100.00,"ApplyTaxAfterDiscount":false,"PrintStatus":"NeedToPrint","EmailStatus":"NotSet","Balance":100.00,"HomeBalance":100.00},"time":"2024-12-06T04:24:50.560-08:00"}</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>access_token</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..RXfPwkGz_mHWfXa1bipjZA.xuRG-StEI_QE26yoCm-aTFQi4kjceFrpeuIGtV-oWQyYnHhOV0lKMFe22ZKvkc2jbH_0GI4A8Q7VejGkUorGy5URgEumIkZnyjJHNngKtvSdkGZGWRPW3Iwu4Bk8IwMhmJ-bIJ9JN1GTZxKUHspz8McQjXsKVccxwV653EfqO5r0vnUfUxEjIquRdV5otFeXybWxtadT2uSFr_h-FnkgAEKX_ItaJPBjdL_j3u8rb7OqPyipL0WLurKmWO5EsXKDWRaHiy4ex0srJUZw6KlKELaaEcq70yy_6bpmuVy95LJtjECXMuBrti92wsFryuo-NzHbS-R2ANxCPnNvBZU_UYIcqVQAP-sOjBbZgq3Yud88iMO-TsZdTjDoWY2PlonLYHvgHkw2tZwN3ye2w1XtDQpl4Ebgff4XRneE-IBIElKwGVFi6Yy31XPxkbU4MVZRBLpLmWDgwxXROoIrcdypuS4THH5RjxJHD0WYdO-Wt_bFhuNXsUpr7aHo5a1z0_laldcHQByWz-HPdA7SOU5ghEMZnJqtC0k9kRMcVgVLLHM4T0tLwJQGuWymqybCZ7tSJpUDvU2FrflrtzLHdF_2xbfqNf6wBFM1Vk27SVecKhMKr6wAiwg9dE-pK__rrQLTCby1F3dGcKnE5X2PubGL51ZJ9NEIP0NOXJzIG-j7rH2ZfeRy63siAFd9FcFrwJj3h7qtHuVyLR36a9Ugr-pHPdTX8Ukv2L5HNUjseU3K2OXK9AkLkyN5ynILVenHvgmy.hyzBa90FfXMbBKLVWHXnbA</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>
+ </td>
+	</tr>
+</tbody></table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-0-confidence-2">
+					<h3>
+						<span>Risk</span>=<span class="risk-level">Informational</span>, <span>Confidence</span>=<span class="confidence-level">Medium</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://sandbox-quickbooks.api.intuit.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alert-type-4">User Agent Fuzzer</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">POST https://sandbox-quickbooks.api.intuit.com/v3/company/4620816365289262850/companycurrency?minorversion=40</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tbody><tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Check for differences in response based on fuzzed User Agent (eg. mobile sites, access as a Search Engine Crawler). Compares the response statuscode and the hashcode of the response body with the original response.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (1294 bytes)</summary>
+				
+				<pre><code>POST https://sandbox-quickbooks.api.intuit.com/v3/company/4620816365289262850/companycurrency?minorversion=40 HTTP/1.1
+Accept: application/json
+Content-type: application/json
+Authorization: Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..nMp9PdSJZSufljxxCEwoDQ.9uGoMYJkGAiEtydwdWto908YcE44QSaBnXPonS-O1G2OlJ63Yb97gjw2GYEIq7yZ_ryLNRiy6end51wV-Zb-wSklQFNDQpdjJrkQ3zmJv8hlCRqA_2KWizPJbLzA1hwXzdChXjbSCD-ZfUONtDr6peW79CysARDXftsZsS7vdQFic4q7XOITwqQsoOPbEpEpWCcnr2co832G8np3r_MKdooTUjo72Hul09o55YxxPnPo5haWMJMByEQXVpPt1I_WmcMJD3P9pD4RyXi8Ki8lMgJS2KEK1Wxnm7lo_v5GD15LChs_NFuBVu-LO2CmP4yXpU4UQCwDswlW3YbOMgTsO2ss8Ys_51dyN1HZKpy92lak9d7t8Tr6c_RvFAr81rai2hz3mmeJcPVFrOGUWk0sARAVRmuXF_A0h2EYjHdPrz5aKdFkc0jgn1h7E_AuKEHhPZ94IW0VvERK_HC4Y0VY18RIw_0nAz4lt0HQAwQ4B6K3-VZtSZAgTn6aWqmDuqWA69j_L9pwEmAMLG-T_4Vr7uOXqrFwWszhTNx2COpuV7WsRixr6qqb2JHKz1vL2bqpYY1rWtaqCZwz_sDmYoe_2AYnem65ovgTAhK-Jj0-LZpif6bcWgJkrB-pJe096tReMAQMNAySMIh9o69-PFlPUccNNwWIrPRHXHQCbUbsjuPZ1bkmVbpfq2J6NErfMMc1iK_-tutFHnlTXpKHKEVcIi0E6Pbd03MqiI7y4AI8htpNjpUbvtjXL2ZtfbTwbbQd.JVGr4ClzMKDmF-nDkwGumw
+user-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)
+Cache-Control: no-cache
+Postman-Token: 827224eb-9274-42a5-811e-bb0f0b187d8d
+host: sandbox-quickbooks.api.intuit.com
+Connection: keep-alive
+Content-Length: 21
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (21 bytes)</summary>
+				
+				<pre><code>{
+  "Code": "AOA"
+}</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (408 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 401 Unauthorized
+Date: Fri, 06 Dec 2024 15:53:18 GMT
+Content-Type: application/json
+Content-Length: 440
+Connection: keep-alive
+WWW-Authenticate: Bearer realm="Intuit", error="invalid_token"
+x-envoy-upstream-service-time: 11
+strict-transport-security: max-age=31536000
+intuit_tid: 1-67531dee-0e499ac0729f22dd07c87fe2
+x-request-id: 1-67531dee-0e499ac0729f22dd07c87fe2
+server: istio-envoy
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (440 bytes)</summary>
+				
+				<pre><code>{"warnings":null,"intuitObject":null,"fault":{"error":[{"message":"message=AuthenticationFailed; errorCode=003200; statusCode=401","detail":"Token expired: AB01733491784IOq6XfEQ9mo4sG4mAtzUeVoieGhjHGIzeZvoy","code":"3200","element":null}],"type":"AUTHENTICATION"},"report":null,"queryResponse":null,"batchItemResponse":[],"attachableResponse":[],"syncErrorResponse":null,"requestId":null,"time":1733500398026,"status":null,"cdcresponse":[]}</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>Header User-Agent</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Attack</th>
+		<td><pre><code>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)</code></pre></td>
+	</tr>
+	
+	
+</tbody></table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-0-confidence-1">
+					<h3>
+						<span>Risk</span>=<span class="risk-level">Informational</span>, <span>Confidence</span>=<span class="confidence-level">Low</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">https://sandbox-quickbooks.api.intuit.com</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a href="file:///C:/Users/Twinkle%20Khapekar/Downloads/2024-12-06-ZAP-Report-sandbox-quickbooks.api.intuit.com.html#alert-type-2">Re-examine Cache-control Directives</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET https://sandbox-quickbooks.api.intuit.com/v3/company/4620816365289262850/invoice/587?minorversion=40</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tbody><tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/04-Authentication_Testing/06-Testing_for_Browser_Cache_Weaknesses">WSTG-v42-ATHN-06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/525.html">CWE-525</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The cache-control header has not been set properly or is missing, allowing the browser and proxies to cache content. For static assets like css, js, or image files this might be intended, however, the resources should be reviewed to ensure that no sensitive content will be cached.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (1273 bytes)</summary>
+				
+				<pre><code>GET https://sandbox-quickbooks.api.intuit.com/v3/company/4620816365289262850/invoice/587?minorversion=40 HTTP/1.1
+User-Agent: Intuit-qbov3-postman-collection1
+Accept: application/json
+content-type: application/json
+Authorization: Bearer eyJlbmMiOiJBMTI4Q0JDLUhTMjU2IiwiYWxnIjoiZGlyIn0..RXfPwkGz_mHWfXa1bipjZA.xuRG-StEI_QE26yoCm-aTFQi4kjceFrpeuIGtV-oWQyYnHhOV0lKMFe22ZKvkc2jbH_0GI4A8Q7VejGkUorGy5URgEumIkZnyjJHNngKtvSdkGZGWRPW3Iwu4Bk8IwMhmJ-bIJ9JN1GTZxKUHspz8McQjXsKVccxwV653EfqO5r0vnUfUxEjIquRdV5otFeXybWxtadT2uSFr_h-FnkgAEKX_ItaJPBjdL_j3u8rb7OqPyipL0WLurKmWO5EsXKDWRaHiy4ex0srJUZw6KlKELaaEcq70yy_6bpmuVy95LJtjECXMuBrti92wsFryuo-NzHbS-R2ANxCPnNvBZU_UYIcqVQAP-sOjBbZgq3Yud88iMO-TsZdTjDoWY2PlonLYHvgHkw2tZwN3ye2w1XtDQpl4Ebgff4XRneE-IBIElKwGVFi6Yy31XPxkbU4MVZRBLpLmWDgwxXROoIrcdypuS4THH5RjxJHD0WYdO-Wt_bFhuNXsUpr7aHo5a1z0_laldcHQByWz-HPdA7SOU5ghEMZnJqtC0k9kRMcVgVLLHM4T0tLwJQGuWymqybCZ7tSJpUDvU2FrflrtzLHdF_2xbfqNf6wBFM1Vk27SVecKhMKr6wAiwg9dE-pK__rrQLTCby1F3dGcKnE5X2PubGL51ZJ9NEIP0NOXJzIG-j7rH2ZfeRy63siAFd9FcFrwJj3h7qtHuVyLR36a9Ugr-pHPdTX8Ukv2L5HNUjseU3K2OXK9AkLkyN5ynILVenHvgmy.hyzBa90FfXMbBKLVWHXnbA
+Cache-Control: no-cache
+Postman-Token: 9368c9f4-0fa6-4408-bb54-01f0a760639e
+host: sandbox-quickbooks.api.intuit.com
+Connection: keep-alive
+Content-Length: 2163
+
+</code></pre>
+				
+				
+			</details> <details class="request-body">
+				<summary>Request body (2163 bytes)</summary>
+				
+				<pre><code>{
+    "domain": "QBO",
+    "sparse": false,
+    "Id": "163",
+    "SyncToken": "0",
+    "CustomField": [
+      {
+        "DefinitionId": "1",
+        "Name": "Crew #",
+        "Type": "StringType"
+      }
+    ],
+    "DocNumber": "1001-Updated",
+    "TxnDate": "2016-08-18",
+    "CurrencyRef": {
+      "value": "USD",
+      "name": "United States Dollar"
+    },
+    "ExchangeRate": 1,
+    "TxnStatus": "Pending",
+    "Line": [
+      {
+        "Id": "1",
+        "LineNum": 1,
+        "Description": "Pest Control Services",
+        "Amount": 35,
+        "DetailType": "SalesItemLineDetail",
+        "SalesItemLineDetail": {
+          "ItemRef": {
+            "value": "10",
+            "name": "Pest Control"
+          },
+          "UnitPrice": 35,
+          "Qty": 1,
+          "TaxCodeRef": {
+            "value": "NON"
+          }
+        }
+      },
+      {
+        "Amount": 35,
+        "DetailType": "SubTotalLineDetail",
+        "SubTotalLineDetail": {}
+      },
+      {
+        "Amount": 3.5,
+        "DetailType": "DiscountLineDetail",
+        "DiscountLineDetail": {
+          "PercentBased": true,
+          "DiscountPercent": 10,
+          "DiscountAccountRef": {
+            "value": "86",
+            "name": "Discounts given"
+          }
+        }
+      }
+    ],
+    "TxnTaxDetail": {
+      "TotalTax": 0
+    },
+    "CustomerRef": {
+      "value": "3",
+      "name": "Cool Cars"
+    },
+    "CustomerMemo": {
+      "value": "Thank you for your business and have a great day!"
+    },
+    "BillAddr": {
+      "Id": "4",
+      "Line1": "65 Ocean Dr.",
+      "City": "Half Moon Bay",
+      "CountrySubDivisionCode": "CA",
+      "PostalCode": "94213",
+      "Lat": "37.4300318",
+      "Long": "-122.4336537"
+    },
+    "ShipAddr": {
+      "Id": "4",
+      "Line1": "65 Ocean Dr.",
+      "City": "Half Moon Bay",
+      "CountrySubDivisionCode": "CA",
+      "PostalCode": "94213",
+      "Lat": "37.4300318",
+      "Long": "-122.4336537"
+    },
+    "TotalAmt": 31.5,
+    "HomeTotalAmt": 31.5,
+    "ApplyTaxAfterDiscount": false,
+    "PrintStatus": "NeedToPrint",
+    "EmailStatus": "NotSet",
+    "BillEmail": {
+      "Address": "Cool_Cars@intuit.com"
+    }
+  }</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (612 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Fri, 06 Dec 2024 12:25:08 GMT
+Content-Type: application/json;charset=utf-8
+Connection: close
+x-spanid: e073888a-6d26-22a4-9fd8-14e881374d5d
+x-amzn-trace-id: Root=1-6752ed24-537d81762524d0f338baa640
+X-Content-Type-Options: nosniff
+x-envoy-upstream-service-time: 296
+Server: istio-envoy
+x-envoy-decorator-operation: v3-facade-service-desired-service.dev-devx-v3facadeservice-usw2-prd-ids.svc.cluster.local:8090/*
+Strict-Transport-Security: max-age=31536000
+intuit_tid: 1-6752ed24-537d81762524d0f338baa640
+x-request-id: 1-6752ed24-537d81762524d0f338baa640
+content-length: 2319
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (2319 bytes)</summary>
+				
+				<pre><code>{"Invoice":{"AllowIPNPayment":false,"AllowOnlinePayment":false,"AllowOnlineCreditCardPayment":false,"AllowOnlineACHPayment":false,"InvoiceLink":"https://developer.intuit.com/comingSoonview/scs-v1-de9c95ae90114788aae15b1ab051be5f695468b4cc4347c2ba8231509ebc97c20a2b1d28b3c44f12a31bf367810b6b9e?locale=en_US&amp;cta=v3invoicelink","domain":"QBO","sparse":false,"Id":"587","SyncToken":"0","MetaData":{"CreateTime":"2023-12-14T05:28:00-08:00","LastUpdatedTime":"2024-12-05T06:34:42-08:00"},"CustomField":[{"DefinitionId":"1","Name":"Test Field","Type":"StringType"}],"DocNumber":"1375","TxnDate":"2023-12-14","CurrencyRef":{"value":"USD","name":"United States Dollar"},"ExchangeRate":1,"LinkedTxn":[],"Line":[{"Id":"1","LineNum":1,"Amount":113876.00,"DetailType":"SalesItemLineDetail","SalesItemLineDetail":{"ItemRef":{"value":"1","name":"Services"},"UnitPrice":343,"Qty":332,"ItemAccountRef":{"value":"1","name":"Services"},"TaxCodeRef":{"value":"TAX"}}},{"Amount":113876.00,"DetailType":"SubTotalLineDetail","SubTotalLineDetail":{}},{"Amount":4343.00,"DetailType":"DiscountLineDetail","DiscountLineDetail":{"PercentBased":false,"DiscountAccountRef":{"value":"86","name":"Discounts given"}}},{"Amount":3444.00,"DetailType":"SalesItemLineDetail","SalesItemLineDetail":{"ItemRef":{"value":"SHIPPING_ITEM_ID"}}}],"TxnTaxDetail":{"TxnTaxCodeRef":{"value":"5"},"TotalTax":9110.08,"TaxLine":[{"Amount":9110.08,"DetailType":"TaxLineDetail","TaxLineDetail":{"TaxRateRef":{"value":"7"},"PercentBased":true,"TaxPercent":8,"NetAmountTaxable":113876.00}}]},"CustomerRef":{"value":"215","name":"Barbara  Thompson"},"BillAddr":{"Id":"1064","Line1":"Barbara Thompson","Line2":"4253 Southern Avenue","Line3":"Des Moines Des Moines 50309 IA"},"ShipAddr":{"Id":"1065","Line1":"Barbara Thompson","Line2":"erere","City":"qwqr2qr","Country":"rwrqeqr","CountrySubDivisionCode":"IA","PostalCode":"rqrqr"},"FreeFormAddress":false,"SalesTermRef":{"value":"2","name":"Net 15"},"DueDate":"2023-12-14","TotalAmt":122087.08,"HomeTotalAmt":122087.08,"ApplyTaxAfterDiscount":false,"PrintStatus":"NeedToPrint","EmailStatus":"EmailSent","BillEmail":{"Address":"barbarajthompson@armyspy.com"},"Balance":122087.08,"HomeBalance":122087.08,"DeliveryInfo":{"DeliveryType":"Email","DeliveryTime":"2024-12-05T06:34:42-08:00"}},"time":"2024-12-06T04:25:08.661-08:00"}</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>cache-control</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>For secure content, ensure the cache-control HTTP header is set with "no-cache, no-store, must-revalidate". If an asset should be cached consider setting the directives "public, max-age, immutable".</p>
+ </td>
+	</tr>
+</tbody></table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				  
+			</ol>
+		</section>
+
+		<section id="appendix" class="appendix">
+			<h2>Appendix</h2>
+
+			<section id="alert-types" class="alert-types">
+				<h3>Alert types</h3>
+				<p class="alert-types-intro">This section contains additional information on the types of alerts in the report.</p>
+				<ol>
+					<li id="alert-type-0">
+						<h4>Path Traversal</h4>
+						<table class="alert-types-table">
+							<tbody><tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by an active scanner</span> <span>(<a href="https://www.zaproxy.org/docs/alerts/6/">Path Traversal</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a href="https://cwe.mitre.org/data/definitions/22.html">22</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>33</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a href="https://owasp.org/www-community/attacks/Path_Traversal">https://owasp.org/www-community/attacks/Path_Traversal</a></li>
+										<li><a href="https://cwe.mitre.org/data/definitions/22.html">https://cwe.mitre.org/data/definitions/22.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</tbody></table>
+					</li>
+					<li id="alert-type-1">
+						<h4>SQL Injection - SQLite</h4>
+						<table class="alert-types-table">
+							<tbody><tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by an active scanner</span> <span>(<a href="https://www.zaproxy.org/docs/alerts/40024/">SQL Injection - SQLite</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a href="https://cwe.mitre.org/data/definitions/89.html">89</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>19</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</tbody></table>
+					</li>
+					<li id="alert-type-2">
+						<h4>Re-examine Cache-control Directives</h4>
+						<table class="alert-types-table">
+							<tbody><tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a href="https://www.zaproxy.org/docs/alerts/10015/">Re-examine Cache-control Directives</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a href="https://cwe.mitre.org/data/definitions/525.html">525</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a href="https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching">https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</a></li>
+										<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</a></li>
+										<li><a href="https://grayduck.mn/2021/09/13/cache-control-recommendations/">https://grayduck.mn/2021/09/13/cache-control-recommendations/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</tbody></table>
+					</li>
+					<li id="alert-type-3">
+						<h4>Session Management Response Identified</h4>
+						<table class="alert-types-table">
+							<tbody><tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a href="https://www.zaproxy.org/docs/alerts/10112/">Session Management Response Identified</a>)
+									</span>   
+								</td>
+							</tr>
+							
+							
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a href="https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id">https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</a></li>
+									</ol>
+								</td>
+							</tr>
+						</tbody></table>
+					</li>
+					<li id="alert-type-4">
+						<h4>User Agent Fuzzer</h4>
+						<table class="alert-types-table">
+							<tbody><tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by an active scanner</span> <span>(<a href="https://www.zaproxy.org/docs/alerts/10104/">User Agent Fuzzer</a>)
+									</span>   
+								</td>
+							</tr>
+							
+							
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a href="https://owasp.org/wstg">https://owasp.org/wstg</a></li>
+									</ol>
+								</td>
+							</tr>
+						</tbody></table>
+					</li>
+				</ol>
+			</section>
+		</section>
+		 
+	</main>
+
+
+
+
+
+</body></html>
